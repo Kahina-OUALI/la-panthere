@@ -726,7 +726,16 @@ h1 {
     color: #333333!important;
 }
 
-h4 {
+h4,
+h5,
+h6 {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #333333!important;
+}
+
+footer ul li a {
+    font-weight: 400;
     color: #333333!important;
 }
 
