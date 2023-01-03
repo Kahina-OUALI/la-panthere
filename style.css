@@ -8,7 +8,7 @@ img  {
     height: 150px;
 }
 .title {
-    width: 65%;
+    width: 80%;
     height: 12vh;
 }
 .citation {
@@ -16,11 +16,23 @@ img  {
     height: 20vh;
 }
 .black {
-    color: #575757 !important;
+    font-weight: 600;
+    color: #333333 !important;
 }
 .title-port {
     width: 50%;
     height: 12vh;
+}
+.icon-md {
+    color: #575757 !important;
+}
+footer h4,
+footer h5,
+footer h6 {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #333333!important;
 }
 #bloc-4-portfolio .portfolio-row img {
     width: 100%;
@@ -773,13 +785,7 @@ h1 {
     color: #333333!important;
 }
 
-h4,
-h5,
-h6 {
-    font-size: 15px;
-    text-transform: uppercase;
-    color: #333333!important;
-}
+
 
 footer ul li a {
     font-weight: 400;
