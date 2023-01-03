@@ -1,3 +1,50 @@
+/* Modifications */
+
+img  {
+    object-fit: cover;
+}
+.logo {
+    width: 150px;
+    height: 150px;
+}
+.title {
+    width: 65%;
+    height: 12vh;
+}
+.citation {
+    width: 100%;
+    height: 20vh;
+}
+.black {
+    color: #575757 !important;
+}
+.title-port {
+    width: 50%;
+    height: 12vh;
+}
+#bloc-4-portfolio .portfolio-row img {
+    width: 100%;
+    height: 250px;
+}
+@media (max-width: 767px) {
+    .bloc-mob-center-text {
+        text-align: center;
+    }
+    .logo {
+        width: 130px;
+        height: 130px;
+    }
+    .title,
+    .citation {
+        width: 100%;
+    }
+    .citation {
+        height: 180px;
+    }
+}
+
+/* End of modifications */
+
 body {
     margin: 0;
     padding: 0;
@@ -1041,11 +1088,5 @@ footer ul li a {
     .bloc {
         padding-left: 0;
         padding-right: 0;
-    }
-}
-
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
     }
 }
