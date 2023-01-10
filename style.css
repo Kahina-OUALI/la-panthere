@@ -51,7 +51,7 @@ footer h6 {
     color: #333333!important;
 }
 #bloc-4-portfolio .portfolio-row img {
-    width: 100%;
+    width: 260px;
     height: 250px;
 }
 @media (max-width: 767px) {
