@@ -75,7 +75,7 @@
                         <h1 class="text-center hero-bloc-text black">
                             Parlons web design !
                         </h1>
-                        <h2 class="text-center mg-lg black tight-width-whitespace h2-contact">
+                        <h2 class="text-center mg-lg black tight-width-whitespace title-contact">
                             Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
                             Parlez-nous de votre projet en complétant le formulaire ci-dessous.
                         </h2>
@@ -89,34 +89,36 @@
                     <div class="col-sm-6">
                         <form id="form_1">
                             <div class="form-group">
-                                <label>
+                                <label for="name">
                                     Nom
                                 </label>
-                                <input id="name" class="form-control" required>
+                                <input type="text" name="name" id="name" class="form-control" required>
                             </div>
                             <div class="form-group">
-                                <label>
-                                    Adresse email
+                                <label for="email">
+                                    Adresse e-mail
                                 </label>
-                                <input id="email" class="form-control" type="email" required>
+                                <input type="email" name="email" id="email" class="form-control" required>
                             </div>
                             <div class="form-group">
-                                <label>
-                                    Comment nous avez-vous connu ?
+                                <label for="infos">
+                                    Comment nous avez-vous connu ? 
                                 </label>
-                                <input class="form-control" type="email" required id="input_504">
+                                <input type="text" name="infos" id="infos" class="form-control" required>
                             </div>
                             <div class="form-group">
-                                <label>
-                                    Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-                                </label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
-                            </div> 
+                                <label for="message">
+                                    Brief de votre projet (Ajouter autant de détails que nécessaire)
+                                </label>
+                                <textarea name="projet" id="message" cols="50" rows="4" class="form-control" required></textarea>
+                            </div>
                             <button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
                                 Envoyer
                             </button>
                         </form>
                     </div>
                     <div class="col-sm-6">
+                        <h3 class="black title-contact">Infos complémentaire</h3>
                         <p>
                             contact@agencelapanthere.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
                         </p>
